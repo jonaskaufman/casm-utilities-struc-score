@@ -1,7 +1,7 @@
-bin_PROGRAMS += _casmutils-struc_score
+bin_PROGRAMS += _casmutils-struc-score
 
 _casmutils_struc_score_SOURCES=\
-						  plugins/casm-utilities-struc_score/struc_score.cpp
+						  plugins/casm-utilities-struc-score/struc_score.cpp
 
 _casmutils_struc_score_LDADD=\
 						libcasmutils.la
